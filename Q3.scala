@@ -19,9 +19,7 @@ object stringFormat {
     var index: Int = 0;
     while (index < indexlist.length) {
       var x = n.charAt(indexlist(index));
-      n = n.substring(0, indexlist(index)) + x.toUpper + n.substring(
-        indexlist(index) + 1
-      ) 
+      n = n.substring(0, indexlist(index)) + x.toUpper + n.substring(indexlist(index) + 1) 
       index = index + 1
     }
     println(n)
