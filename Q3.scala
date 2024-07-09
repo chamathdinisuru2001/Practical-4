@@ -24,9 +24,6 @@ object stringFormat {
       ) 
       index = index + 1
     }
-
     println(n)
-
   }
-
 }
